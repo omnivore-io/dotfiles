@@ -22,5 +22,5 @@ if [ -d "$HOME/bin" ] ; then
 fi
 
 export PATH=$PATH:/usr/local/go/bin
+export GOBIN=/usr/local/go/bin
 export GOPATH=~/go
-export GOBIN=~/usr/local/go/bin
