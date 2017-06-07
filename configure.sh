@@ -4,3 +4,5 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle; \
     https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 git submodule update --init
 git submodule sync --recursive
+
+npm install -g eslint
