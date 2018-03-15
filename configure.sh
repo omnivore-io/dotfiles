@@ -5,6 +5,3 @@ mkdir -p ~/.vim/autoload ~/.vim/bundle; \
 git submodule update --init
 git submodule sync --recursive
 
-if type npm > /dev/null; then
-    npm install -g eslint
-fi
